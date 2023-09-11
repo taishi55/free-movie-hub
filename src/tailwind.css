@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.free-movie {
+  @apply fixed top-0 left-0 w-full h-screen min-h-screen max-h-screen bg-white;
+  z-index: 2147483647 !important;
+}
+
+.searchbar-free-movie {
+  @apply flex justify-center items-center fixed top-0 left-0 w-full h-screen min-h-screen max-h-screen;
+  z-index: 2147483647 !important;
+  background-color: #090b21;
+}
+
+#adContainer {
+  @apply fixed top-10 right-10 font-semibold border-2 border-yellow-400 text-lg rounded-lg p-4 text-white bg-blue-700 hidden;
+  z-index: 2147483647 !important;
+}
+
+#countdown {
+  @apply inline-block mr-2;
+}
+
+#adContent {
+  @apply inline-block;
+}
